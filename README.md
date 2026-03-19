@@ -122,6 +122,16 @@ vless://2ea73714-138e-4cc7-8cab-d7caf476d511@<hidden-node-domain>.railway.app:44
 
 - [Deno Console](https://console.deno.com/)
 - Entrypoint: `deno.tsx` (其它留空)
+- 部署方法：
+- 1.Fork本项目到自己Github账号下
+- 2.访问Deno控制台，先创建一个新项目
+- 3.在创建的新项目里，点击右上角创建（New app）按钮
+- 4.在左侧连接Github账号，完成授权操作，选择Github账号，选择对应的存储库
+- 5.在App Directory下点击Edit app config按钮，找到Entrypoint*选项
+- 6.填入`deno.tsx`，关闭，点击Create app，然后部署即可
+- 注意：Appname和fork存储库尽量不要使用默认名称，此方法仅做备用使用
+- vless://2ea73714-138e-4cc7-8cab-d7caf476d51b@这里填入你的deno地址:443?encryption=none&security=tls&type=ws&host=这里填入你的deno地址&path=%2F#这里填入你想要取名的节点名称
+- 粘贴到支持的订阅客户端即可
 
 #### dockerhub
 - [Docker Hub](https://hub.docker.com/r/xuwenjiesmith/node-xu)
